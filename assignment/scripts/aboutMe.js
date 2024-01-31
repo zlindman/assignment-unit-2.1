@@ -40,17 +40,22 @@ pets = pets + 2
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3
 // 12 - Create a variable called `result`. Create a conditional:
-let result = "Adventures are great!";
-if (adventurous = true) {
-  "Adventures are great!";
+
+let result = 'Result';
+
+if (adventurous == true) {
+  result = "Adventures are great!";
 }
 else {
-  "How about we stay home?";
+  result = "How about we stay home?";
 }
+
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+
 console.log (result);
+
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 let diceRoll = "Try again later.";
 if (luckyNumber == 2 && adventurous == true){
@@ -63,12 +68,16 @@ console.log (diceRoll);
 //      Console log the value of `diceRoll`
 
 // 14 - Create a variable called `petStatus`. 
-let petStatus = "I can have more pets";
+
+let petStatus = 'Pet Status';
+
 if (pets < allowedPets){
-   petStatus = "I can have more pets."};
-if (pets = allowedPets){
-  petStatus = "I have enough pets."};
-if (pets > allowedPets) {
+  petStatus = "I can have more pets.";
+}
+else if (pets = allowedPets){
+  petStatus = "I have enough pets.";
+}
+else if (pets > allowedPets) {
   petStatus = "Oh no, I have too many pets!";
 }
 console.log (petStatus);
